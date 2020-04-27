@@ -6,11 +6,12 @@ def find_even_values(src)
   while num < src.length do
     inner_num = 0
     while inner_num < src[num].length do
+      
       if src[num][inner_num] % 2 == 0
         p src[num][inner_num]
+        
         inner_num += 1
       end
       num += 1
     end
-    
 end
